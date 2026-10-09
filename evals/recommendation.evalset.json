@@ -1,0 +1,89 @@
+{
+  "eval_set_id": "laptop_recommendation_v1",
+  "name": "Laptop recommendation evaluation",
+  "description": "End-to-end recommendation, preference memory, and product comparison scenarios.",
+  "eval_cases": [
+    {
+      "eval_id": "basic_recommendation",
+      "conversation": [
+        {
+          "invocation_id": "",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Find me a gaming laptop under 1500 with at least 16 GB RAM."
+              }
+            ],
+            "role": "user"
+          },
+          "creation_timestamp": 0.0
+        }
+      ],
+      "creation_timestamp": 0.0,
+      "final_session_state": {}
+    },
+    {
+      "eval_id": "preference_updates",
+      "conversation": [
+        {
+          "invocation_id": "",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Find me a gaming laptop under 1500 with at least 16 GB RAM."
+              }
+            ],
+            "role": "user"
+          },
+          "creation_timestamp": 0.0
+        },
+        {
+          "invocation_id": "",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Actually, make it at least 32 GB RAM."
+              }
+            ],
+            "role": "user"
+          },
+          "creation_timestamp": 0.0
+        },
+        {
+          "invocation_id": "",
+          "user_content": {
+            "parts": [
+              {
+                "text": "And preferably Lenovo."
+              }
+            ],
+            "role": "user"
+          },
+          "creation_timestamp": 0.0
+        }
+      ],
+      "creation_timestamp": 0.0,
+      "final_session_state": {}
+    },
+    {
+      "eval_id": "product_comparison",
+      "conversation": [
+        {
+          "invocation_id": "",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Compare laptops with catalog IDs 1308 and 1311."
+              }
+            ],
+            "role": "user"
+          },
+          "creation_timestamp": 0.0
+        }
+      ],
+      "creation_timestamp": 0.0,
+      "final_session_state": {}
+    }
+  ],
+  "creation_timestamp": 0.0
+}

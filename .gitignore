@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Local credentials
+*credentials*.json
+*service-account*.json
+
+# Google ADK evaluation history
+.adk/
+
+# Temporary logs
+eval_output.txt
+*.log
+
+# Generated data and embedding cache
+data/raw/
+data/processed/
